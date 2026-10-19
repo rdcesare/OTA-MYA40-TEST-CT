@@ -1,0 +1,4 @@
+Questo è un placeholder per il logo del cliente ROSSI SRL.
+File binario simulato (PNG) per test del manifest generator e dell'upload.
+In produzione: sostituire con il file PNG reale.
+Dimensioni attese: 200x80 px, formato PNG, sfondo trasparente.
