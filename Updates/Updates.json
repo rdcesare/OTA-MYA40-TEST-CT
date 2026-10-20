@@ -126,6 +126,33 @@
         "extra_copies": []
       },
       "date": "2026-08-24"
+    },{
+      "update_id": 6,
+      "enabled": false,
+      "release_id": "rel_GitDownloader_V3",
+      "description": {
+        "title": "AGGIORNAMENTO GitDownloader_V3",
+        "display_message": "Aggiornamento codice GitDownloader_V3.",
+        "type": "STANDARD",
+        "author": "GG"
+      },
+      "target": {
+        "serial_numbers": [
+          "ALL"
+        ],
+        "APE_models": [],
+        "customers": [
+          "CVS"
+        ]
+      },
+      "download": {
+        "folder": "rel_GitDownloader_V3",
+        "reboot_required": true,
+        "gd2_config": "/home/ike/GD_V3",
+        "deploy_mode": "merge",
+        "extra_copies": []
+      },
+      "date": "2026-10-20"
     }
 
   ]
