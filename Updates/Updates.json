@@ -1,5 +1,5 @@
 {
-  "cod_ISO_SGQ": "rel.0 del 22/10/2026 by CT - DB Updates, file di origine 22/07/26",
+  "version": "Codice sgq rel.0 del 22/10/2026 by CT - DB Updates, file di origine 22/07/26",
   "updates": [
     { 
       "update_id": 1,
@@ -12,7 +12,7 @@
         "type": "STANDARD",
         "author": "CT"
       },
-            "target": {
+        "target": {
         "serial_numbers": ["ALL"],
         "APE_model": [],
         "customers": []
@@ -25,6 +25,6 @@
         "deploy_mode":"replace",
         "extra_copies": []
       },
-    "dateOUT":"22-10-2026"}    
+    "date":"22-10-2026"}    
   ]
 }
