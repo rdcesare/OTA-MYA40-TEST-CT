@@ -1,7 +1,6 @@
 {
   "version": "1.0", 
   "updates": [
-
     { 
       "update_id": 1,
       "enabled": true,
@@ -12,13 +11,11 @@
         "type": "STANDARD",
         "author": "CT"
       },
-      
-      "target": {
+        "target": {
         "serial_numbers": ["ALL"],
         "APE_model": [],
         "customers": []
       },
-
       "download": {
         "folder": "20261020",
         "reboot_required": true, 
@@ -27,6 +24,7 @@
         "deploy_mode":"replace",
         "extra_copies": []
       },
-    "date":"22-10-2026"}    
-  ]
+    "date":"22-10-2026"
+  }
+] 
 }
