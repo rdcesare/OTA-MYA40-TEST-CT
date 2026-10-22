@@ -1,131 +1,30 @@
 {
-  "version": "1.0",
+  "version": "1.0", 
   "updates": [
-    {
+    { 
       "update_id": 1,
       "enabled": true,
-      "release_id": "rel_20260722",
+      "release_id": "20261020",
       "description": {
-        "title": "Aggiornamento GUI v1.2",
-        "display_message": "Aggiornamento interfaccia disponibile. Procedere?",
+        "title": "Aggiornamento gui bla bla",
+        "display_message": "Aggiornamento disponibile.",
         "type": "STANDARD",
         "author": "CT"
       },
-      "target": {
-        "serial_numbers": [
-          "APE260002",
-          "APE260003"
-        ],
-        "APE_models": [],
-        "customers": [
-          "ROSSI SRL"
-        ]
+        "target": {
+        "serial_numbers": ["ALL"],
+        "APE_model": [],
+        "customers": []
       },
       "download": {
-        "folder": "rel_20260722",
-        "reboot_required": true,
-        "gd2_config": "/home/ike/Project_scaricato",
-        "deploy_mode": "replace",
+        "folder": "20261020",
+        "reboot_required": true, 
+        "gd2_config": "/home/c40/Desktop/Carlita",
+        "//gd2_config": "percorso dove salvare o sovrascrive una cartella esistente o ne crea una nuova",
+        "deploy_mode":"replace",
         "extra_copies": []
       },
-      "date": "2026-07-22"
-    },
-    {
-      "update_id": 2,
-      "enabled": true,
-      "release_id": "rel_20260725",
-      "description": {
-        "title": "Aggiornamento Logo Cliente BERTU",
-        "display_message": "Nuovo logo cliente disponibile.",
-        "type": "STANDARD",
-        "author": "CT"
-      },
-      "target": {
-        "serial_numbers": [
-          "APE260010",
-          "APE260011"
-        ],
-        "APE_models": [],
-        "customers": [
-          "BERTU SRL"
-        ]
-      },
-      "download": {
-        "folder": "rel_20260725",
-        "reboot_required": false,
-        "gd2_config": "/home/ike/Project_scaricato",
-        "deploy_mode": "merge",
-        "extra_copies": []
-      },
-      "date": "2026-07-25"
-    },
-    {
-      "update_id": 3,
-      "enabled": true,
-      "release_id": "rel_20260730",
-      "description": {
-        "title": "GUI Cliente BERTU v2.0 — Video/Libs",
-        "display_message": "Aggiornamento librerie video disponibile.",
-        "type": "STANDARD",
-        "author": "CT"
-      },
-      "target": {
-        "serial_numbers": [
-          "APE260001",
-          "APE260010"
-        ],
-        "APE_models": [],
-        "customers": [
-          "BERTU SRL"
-        ]
-      },
-      "download": {
-        "folder": "rel_20260730",
-        "reboot_required": true,
-        "gd2_config": "/home/ike/Project_scaricato2",
-        "deploy_mode": "replace",
-        "extra_copies": [
-          {
-            "source": "Video/MYA8 Libs/XojoGUIFrameworkARM64.so",
-            "destination": "/usr/local/lib/",
-            "sudo": true
-          },
-          {
-            "source": "Video/MYA8 Libs/libRBRegExARM64.so",
-            "destination": "/usr/local/lib/",
-            "sudo": true
-          }
-        ]
-      },
-      "date": "2026-08-24"
-    },
-    {
-      "update_id": 5,
-      "enabled": true,
-      "release_id": "rel_GitDownloader_V3",
-      "description": {
-        "title": "AGGIORNAMENTO GitDownloader_V3",
-        "display_message": "Aggiornamento codice GitDownloader_V3.",
-        "type": "STANDARD",
-        "author": "GG"
-      },
-      "target": {
-        "serial_numbers": [
-          "APE260011"
-        ],
-        "APE_models": [],
-        "customers": [
-          "C40"
-        ]
-      },
-      "download": {
-        "folder": "rel_GitDownloader_V3",
-        "reboot_required": true,
-        "gd2_config": "/home/ike/GD_V3",
-        "deploy_mode": "merge",
-        "extra_copies": []
-      },
-      "date": "2026-08-24"
-    }
-  ]
+    "date":"22-10-2026"
+  }
+] 
 }
