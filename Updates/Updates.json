@@ -8,6 +8,7 @@
       "description": {
         "title": "Aggiornamento GUI",
         "display_message": "NUOVO AGGIORNAMENTO DISPONIBILE",
+        "display_message_en": "new update available",
         "type": "STANDARD",
         "author": "CT"
       },
