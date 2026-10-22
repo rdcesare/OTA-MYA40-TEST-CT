@@ -1,34 +1,30 @@
 {
-  "version": "1.0",
+  "version": "1.0", 
   "updates": [
-    {
+    { 
       "update_id": 1,
       "enabled": true,
-      "release_id": "rel_20260722",
+      "release_id": "20261020",
       "description": {
-        "title": "Aggiornamento GUI v1.2",
-        "display_message": "Aggiornamento interfaccia disponibile. Procedere?",
+        "title": "Aggiornamento gui bla bla",
+        "display_message": "Aggiornamento disponibile.",
         "type": "STANDARD",
         "author": "CT"
       },
-      "target": {
-        "serial_numbers": [
-          "APE260002",
-          "APE260003"
-        ],
-        "APE_models": [],
-        "customers": [
-          "ROSSI SRL"
-        ]
+        "target": {
+        "serial_numbers": ["ALL"],
+        "APE_model": [],
+        "customers": []
       },
       "download": {
-        "folder": "rel_20260722",
-        "reboot_required": true,
-        "gd2_config": "/home/ike/Project_scaricato",
-        "deploy_mode": "replace",
+        "folder": "20261020",
+        "reboot_required": true, 
+        "gd2_config": "/home/c40/Desktop/Carlita",
+        "//gd2_config": "percorso dove salvare o sovrascrive una cartella esistente o ne crea una nuova",
+        "deploy_mode":"replace",
         "extra_copies": []
       },
-      "date": "2026-07-22"
-    }
-  ]
+    "date":"22-10-2026"
+  }
+] 
 }
