@@ -1,6 +1,5 @@
 {
-  "version": "1.0",
-  "COD SGQ ISO":"rel.0 del 22/10/2026 by CT - DB Updates, file di origine 22/07/26",
+  "version": "1.0", 
   "updates": [
 
     { 
@@ -10,7 +9,6 @@
       "description": {
         "title": "Aggiornamento gui bla bla",
         "display_message": "Aggiornamento disponibile.",
-        "display_message_en": "New update available",
         "type": "STANDARD",
         "author": "CT"
       },
