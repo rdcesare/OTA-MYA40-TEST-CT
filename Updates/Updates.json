@@ -8,16 +8,14 @@
       "description": {
         "title": "Aggiornamento GUI",
         "display_message": "NUOVO AGGIORNAMENTO DISPONIBILE",
-        "display_message_en": "new update available",
         "type": "STANDARD",
         "author": "CT"
       },
       "target": {
-        "serial_numbers": [
-          "ALL"],
+        "serial_numbers": ["ALL"],
         "APE_models": [],
         "customers": [
-          "Bertu"
+          "cvs"
         ]
       },
       "download": {
