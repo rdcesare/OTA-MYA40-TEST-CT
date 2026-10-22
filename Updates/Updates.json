@@ -1,29 +1,31 @@
 {
-  "version": "1.0", 
+  "version": "1.0",
   "updates": [
-    { 
+    {
       "update_id": 1,
       "enabled": true,
-      "release_id": "20261020",
+      "release_id": "rel_20260722",
       "description": {
-        "title": "Aggiornamento gui bla bla",
-        "display_message": "Aggiornamento disponibile.",
+        "title": "Aggiornamento GUI v1.2",
+        "display_message": "prova prova",
         "type": "STANDARD",
         "author": "CT"
       },
-        "target": {
-        "serial_numbers": ["ALL"],
+      "target": {
+        "serial_numbers": "ALL",
         "APE_models": [],
-        "customers": []
+        "customers": [
+          "ROSSI SRL"
+        ]
       },
       "download": {
-        "folder": "20261020",
-        "reboot_required": true, 
-        "gd2_config": "/home/c40/Desktop/Carlita",
-        "deploy_mode":"replace",
+        "folder": "rel_20260722",
+        "reboot_required": true,
+        "gd2_config": "/home/c40/Download",
+        "deploy_mode": "replace",
         "extra_copies": []
       },
-    "date":"2026-10-22"
-  }
-] 
+      "date": "2026-07-22"
+    }
+  ]
 }
