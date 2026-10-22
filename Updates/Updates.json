@@ -4,24 +4,25 @@
     {
       "update_id": 1,
       "enabled": true,
-      "release_id": "rel_20260722",
+      "release_id": "20261022",
       "description": {
-        "title": "Aggiornamento GUI v1.2",
-        "display_message": "prova prova",
+        "title": "Aggiornamento GUI",
+        "display_message": "NUOVO AGGIORNAMENTO DISPONIBILE",
         "type": "STANDARD",
         "author": "CT"
       },
       "target": {
-        "serial_numbers": "ALL",
+        "serial_numbers": [
+          "ALL"],
         "APE_models": [],
         "customers": [
-          "ROSSI SRL"
+          "Bertu"
         ]
       },
       "download": {
-        "folder": "rel_20260722",
+        "folder": "20261022",
         "reboot_required": true,
-        "gd2_config": "/home/c40/Download",
+        "gd2_config": "/home/ike/Project_scaricato",
         "deploy_mode": "replace",
         "extra_copies": []
       },
