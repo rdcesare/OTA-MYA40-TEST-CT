@@ -1,7 +1,6 @@
 {
   "cod_ISO_SGQ": "rel.0 del 22/10/2026 by CT - DB Updates, file di origine 22/07/26",
   "updates": [
-
     { 
       "update_id": 1,
       "enabled": true,
@@ -13,13 +12,11 @@
         "type": "STANDARD",
         "author": "CT"
       },
-      
-      "target": {
+            "target": {
         "serial_numbers": ["ALL"],
         "APE_model": [],
         "customers": []
       },
-
       "download": {
         "folder": "20261020",
         "reboot_required": true, 
