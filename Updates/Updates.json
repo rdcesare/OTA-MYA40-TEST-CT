@@ -4,22 +4,25 @@
     {
       "update_id": 1,
       "enabled": true,
-      "release_id": "20261022",
+      "release_id": "rel_20260722",
       "description": {
-        "title": "Aggiornamento GUI",
-        "display_message": "ciaooooo",
+        "title": "Aggiornamento GUI v1.2",
+        "display_message": "Aggiornamento interfaccia disponibile. Procedere?",
         "type": "STANDARD",
         "author": "CT"
       },
       "target": {
-        "serial_numbers": ["ALL"],
+        "serial_numbers": [
+          "APE260002",
+          "APE260003"
+        ],
         "APE_models": [],
         "customers": [
-          "cvs"
+          "ROSSI SRL"
         ]
       },
       "download": {
-        "folder": "20261022",
+        "folder": "rel_20260722",
         "reboot_required": true,
         "gd2_config": "/home/ike/Project_scaricato",
         "deploy_mode": "replace",
