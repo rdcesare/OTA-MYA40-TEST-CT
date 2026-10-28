@@ -4,7 +4,7 @@
     {
       "update_id": 1,
       "enabled": true,
-      "release_id": "rel_20260722",
+      "release_id": "20260722",
       "description": {
         "title": "Aggiornamento GUI v1.2",
         "display_message": "Aggiornamento interfaccia disponibile. Procedere?",
@@ -22,7 +22,7 @@
         ]
       },
       "download": {
-        "folder": "rel_20260722",
+        "folder": "20260722",
         "reboot_required": true,
         "gd2_config": "/home/ike/Project_scaricato",
         "deploy_mode": "replace",
@@ -31,9 +31,9 @@
       "date": "2026-07-22"
     },
     {
-      "update_id": 2,
+      "update_id": 0,
       "enabled": true,
-      "release_id": "rel_20260725",
+      "release_id": "20260725",
       "description": {
         "title": "Aggiornamento Logo Cliente BERTU",
         "display_message": "Nuovo logo cliente disponibile.",
