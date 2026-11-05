@@ -4,11 +4,13 @@
     {
       "update_id": 1,
       "enabled": true,
-      "release_id": "rel_20260722",
+      "release_id": "CIAOOO",
       "package_type": "cumulative",
       "description": {
         "title": "Aggiornamento CT",
         "display_message": "Aggiornamento interfaccia disponibile. Procedere?",
+        "display_message_EN": "new UPDATE AVAILABLE",
+        "display_message_de": "FFFFFFF?",
         "type": "STANDARD",
         "author": "CT"
       },
