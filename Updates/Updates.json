@@ -4,12 +4,12 @@
     {
       "update_id": 1,
       "enabled": true,
-      "release_id": "CIAOOO",
+      "release_id": "TRTRTRTR",
       "package_type": "cumulative",
       "description": {
         "title": "Aggiornamento CT",
         "display_message": "Aggiornamento interfaccia disponibile. Procedere?",
-        "display_message_EN": "new UPDATE AVAILABLE",
+        "display_message_EN": "new PDATE AVAILABLE",
         "display_message_de": "FFFFFFF?",
         "type": "STANDARD",
         "author": "CT"
