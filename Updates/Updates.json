@@ -4,7 +4,7 @@
     {
       "update_id": 1,
       "enabled": true,
-      "release_id": "TRTRTRTR",
+      "release_id": "ciaoooo",
       "package_type": "cumulative",
       "description": {
         "title": "Aggiornamento CT",
@@ -16,7 +16,7 @@
       },
       "target": {
         "serial_numbers": [
-          "APE260002",
+          "MY260002",
           "APE260003"
         ],
         "APE_models": [],
