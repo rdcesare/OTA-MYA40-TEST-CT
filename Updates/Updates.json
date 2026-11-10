@@ -1,31 +1,151 @@
+
 {
+  "title": "DB_UPDATES",
   "version": "1.0",
   "updates": [
     {
       "update_id": 1,
       "enabled": true,
-      "release_id": "ciaoooo",
-      "package_type": "cumulative",
+      "release_id": "20261029",
+      "special": "true",
       "description": {
-        "title": "Aggiornamento CT",
-        "display_message": "Aggiornamento interfaccia disponibile. Procedere?",
-        "display_message_EN": "new PDATE AVAILABLE",
-        "display_message_de": "FFFFFFF?",
+        "title": "Aggiornamento ID 1",
+        "display_message": "Aggiornamento disponibile.",
         "type": "STANDARD",
         "author": "CT"
       },
       "target": {
-        "serial_numbers": [
-          "MY260002",
-          "APE260003"
-        ],
-        "APE_models": [],
-        "customers": [
-          "ROSSI SRL"
-        ]
+        "serial_numbers": ["ALL"],
+        "APE_models": ["ALL"],
+        "customers": ["ALL"]
       },
       "download": {
-        "folder": "rel_20260722",
+        "folder": "20261029_1",
+        "reboot_required": true,
+        "gd2_config": "/home/ike/Project_scaricato",
+        "deploy_mode": "replace",
+        "extra_copies": []
+      },
+      "date": "2026-11-05"
+    },
+    {
+      "update_id": 2,
+      "enabled": true,
+      "release_id": "20261029",
+      "special": "true",
+      "description": {
+        "title": "Aggiornamento ID 2",
+        "display_message": "Aggiornamento disponibile.",
+        "type": "STANDARD",
+        "author": "CT"
+      },
+      "target": {
+        "serial_numbers": ["ALL"],
+        "APE_models": ["ALL"],
+        "customers": ["ALL"]
+      },
+      "download": {
+        "folder": "20261029_2",
+        "reboot_required": true,
+        "gd2_config": "/home/ike/Project_scaricato",
+        "deploy_mode": "replace",
+        "extra_copies": []
+      },
+      "date": "2026-11-05"
+    },
+    {
+      "update_id": 3,
+      "enabled": true,
+      "release_id": "20261029",
+      "special": "true",
+      "description": {
+        "title": "Aggiornamento ID 3",
+        "display_message": "Aggiornamento disponibile.",
+        "type": "STANDARD",
+        "author": "CT"
+      },
+      "target": {
+        "serial_numbers": ["MY26001"],
+        "APE_models": ["ALL"],
+        "customers": ["ALL"]
+      },
+      "download": {
+        "folder": "20261029_3",
+        "reboot_required": true,
+        "gd2_config": "/home/ike/Project_scaricato",
+        "deploy_mode": "replace",
+        "extra_copies": []
+      },
+      "date": "2026-11-05"
+    },
+    {
+      "update_id": 4,
+      "enabled": true,
+      "release_id": "20261029",
+      "special": "true",
+      "description": {
+        "title": "Aggiornamento ID 4",
+        "display_message": "Aggiornamento disponibile.",
+        "type": "STANDARD",
+        "author": "CT"
+      },
+      "target": {
+        "serial_numbers": ["MY26001"],
+        "APE_models": ["ALL"],
+        "customers": ["ALL"]
+      },
+      "download": {
+        "folder": "20261029_4",
+        "reboot_required": true,
+        "gd2_config": "/home/ike/Project_scaricato",
+        "deploy_mode": "replace",
+        "extra_copies": []
+      },
+      "date": "2026-11-05"
+    },
+    {
+      "update_id": 5,
+      "enabled": false,
+      "release_id": "20261029",
+      "special": "true",
+      "description": {
+        "title": "Aggiornamento ID 5 disabilitato",
+        "display_message": "Aggiornamento non disponibile.",
+        "type": "STANDARD",
+        "author": "CT"
+      },
+      "target": {
+        "serial_numbers": ["ALL"],
+        "APE_models": ["ALL"],
+        "customers": ["ALL"]
+      },
+      "download": {
+        "folder": "20261029_5",
+        "reboot_required": true,
+        "gd2_config": "/home/ike/Project_scaricato",
+        "deploy_mode": "replace",
+        "extra_copies": []
+      },
+      "date": "2026-11-05"
+    },
+    {
+      "update_id": 6,
+      "enabled": true,
+      "release_id": "20261020",
+      "special": "true",
+      "description": {
+        "title": "Aggiornamento release precedente",
+        "display_message": "Aggiornamento disponibile.",
+        "type": "STANDARD",
+        "author": "CT"
+      },
+      "target": {
+        "serial_numbers": ["ALL"],
+        "APE_models": ["ALL"],
+        "customers": ["ALL"]
+      },
+      "download": {
+        "folder": "20261020_6",
         "reboot_required": true,
         "gd2_config": "/home/ike/Project_scaricato",
         "deploy_mode": "replace",
