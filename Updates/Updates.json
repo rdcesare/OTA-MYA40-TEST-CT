@@ -11,6 +11,7 @@
       "description": {
         "title": "Aggiornamento ID 1",
         "display_message": "Aggiornamento disponibile.",
+        "display_message_en": "New update",
         "type": "STANDARD",
         "author": "CT"
       },
@@ -86,6 +87,7 @@
       "description": {
         "title": "Aggiornamento ID 4",
         "display_message": "Aggiornamento disponibile.",
+        "display_message_en": "New update",
         "type": "STANDARD",
         "author": "CT"
       },
@@ -111,6 +113,7 @@
       "description": {
         "title": "Aggiornamento ID 5 disabilitato",
         "display_message": "Aggiornamento non disponibile.",
+        "display_message_en": "New update",
         "type": "STANDARD",
         "author": "CT"
       },
