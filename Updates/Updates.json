@@ -21,13 +21,13 @@
         "customers": ["ALL"]
       },
       "download": {
-        "folder": "20261029_1",
+        "folder": "20261001_1",
         "reboot_required": true,
-        "gd2_config": "/home/ike/Project_scaricato",
+        "gd2_config": "/home/c40/Scaricati/20261001_1",
         "deploy_mode": "replace",
         "extra_copies": []
       },
-      "date": "2026-11-05"
+      "date": "2026-11-26"
     },
     {
       "update_id": 2,
